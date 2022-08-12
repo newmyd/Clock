@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>闹钟</title>
+		<link rel="stylesheet" type="text/css" href="./timer.css"></link>
+		<link rel="stylesheet" type="text/css" href="../main/index.css"></link>
+	</head>
+	<body>
+		<div class="time">
+            <a id="a" href="../index.html">Clock</a>
+			<div id="desTime"></div>
+			<div id="nowTime"><br /></div>
+			<div id="input">
+				<input id="hour" class="input" value="00" /> :
+				<input id="minute" class="input" value="00" /> :
+				<input id="second" class="input" value="00" /> .
+				<input id="msecond" class="input" value="00" />
+			</div>
+			<div id="time"><br /></div>
+			<input id="btn" type="button" value="Start" onclick="startClear();" />
+		</div>
+		<audio controls="controls" id="audio">
+		  <source src="./audio.mp3" type="audio/mp3" loop="loop" />
+		</audio>
+		<script type="text/javascript" src="./timer.js"></script>
+	</body>
+</html>

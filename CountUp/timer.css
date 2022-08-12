@@ -1,0 +1,56 @@
+.time {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 60px;
+	width: 100%;
+}
+
+.btn {
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    width: 30%;
+    height: 50px;
+    display: inline-block;
+    border: 0;
+}
+
+
+#startStop {
+    color: #ffffff;
+    background-color: #4191f5;
+}
+
+#startStop:hover {
+    background-color: #5eb4ff;
+}
+
+#clearRemember {
+    color: #4191f5;
+    background-color: #eeeeee;
+}
+
+#clearRemember:hover {
+    background-color: #dbdbdb;
+}
+
+#ht {
+    font-size: 30px;
+	white-space:pre;
+	margin: auto;
+}
+
+.mid {
+	width: 70%;
+}
+
+.left {
+	width: 15%;
+	text-align: right;
+}
+
+.right {
+	width: 15%;
+	text-align: left;
+}
